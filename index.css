@@ -1,0 +1,40 @@
+.cursr {
+    cursor: pointer;
+}
+
+.cursr:hover {
+    background-color: rgba(134, 184, 138, 0.63);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.lh {
+    line-height: 10px;
+}
+
+.sldr {
+    width: 100%;
+}
+
+body,
+html {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.fixbtn1 {
+    position: absolute;
+    bottom: 30px;
+    right: 80px;
+    z-index: 1000;
+}
+
+.fixbtn2 {
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    z-index: 1000;
+}
